@@ -1,0 +1,72 @@
+@import "reset.css";
+
+body {
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+
+
+.status-bar {
+    display: flex;
+    justify-content: center;
+    padding: 7px 5px;
+    margin-top: 4px;
+    border-bottom: 3px solid wheat
+}
+
+.status-bar div {
+    width: 33%;
+}
+
+.status-bar__SKT span {
+    margin-right: 5px;
+}
+
+.status-bar__time span {
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar__time span {
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar__battery {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.status-bar__battery span,
+.fa-battery-quarter {
+    margin: 0px 4px;
+}
+
+.header-bar {
+   margin-top: 100px;
+   margin-left: 30px;
+   width: 30%;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@keyframes asd {
+    from{
+        transform: rotateX('45deg');
+    }
+    to {
+        transform: rotateY('50deg')
+    }
+}
+
+img {
+    animation: asd 5s ease-in-out infinite;
+}
